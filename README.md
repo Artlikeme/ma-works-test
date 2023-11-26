@@ -1,11 +1,6 @@
 
-# Test Task for BrainFeed
+# Test Task for ma.works
 Parsing application
-
-Main URL with web interface:
-```url
-  http://localhost:8000/parse
-```
 
 
 
@@ -15,7 +10,7 @@ Main URL with web interface:
 Clone the project
 
 ```bash
-  git clone https://github.com/Artlikeme/brain-feed.git
+  git clone "link"
 ```
 
 Go to the project directory
@@ -29,12 +24,12 @@ Install dependencies
 ```bash
   python -m venv venv
   source venv/bin/activate
-  pip install -r req.txt
+  pip install -r requirements.txt
 ```
 
 Start the server
 
 ```bash
-  python manage.py runserver
+  python main.py
 ```
 
